@@ -1,0 +1,12 @@
+<div  th:fragment= "Parent(x,y)">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum laboriosam autem magnam. Veritatis eos soluta, debitis error magni quam eum maxime iure consequuntur modi dicta quasi tempora cumque alias.
+    <h1>value of x = <span th:text="${x}"></span></h1>
+    <!-- <p th:replace= "${content}"></p> -->
+    <h th:text="${x}"></h>
+</div>
+<div th:fragment= "Parent1">
+    <h2>hi thereee</h2>
+</div>
+<div th:fragment= "Parent2(content)">
+    <h2 th:replace =${content}></h2>
+</div>
